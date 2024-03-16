@@ -1,12 +1,15 @@
 {
-  "name": "3dfolio",
+  "homepage": "https://nishanktiwari17.github.io/Portfolio-Website",
+  "name": "Portfolio Website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
