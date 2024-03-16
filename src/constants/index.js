@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Software Developer",
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Full Stack Developer",
     icon: creator,
   },
 ];
@@ -116,16 +116,17 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Associate Software Developer",
+    company_name: "Lucien Solutions",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2022 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing microservices architecture with Node.js (Express.js) and Golang, encapsulating in 20+Docker containers",
+      "Orchestrating automated deployment of these containers on AWS EC2.",
+      "Architecting database schema and enhancing it’s efficiency through implementation of MongoDB sharded replica sets for robust data availability",
+      "Worked with team to build ReactJS frontend which included session management, frontend state management, authentication and payment gateway integration.",
+      "Constructed chat system using WebSocket’s and Redis Pub/Sub to enable real-time chat for over 10K users"
     ],
   },
   {
