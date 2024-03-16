@@ -31,6 +31,14 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "education",
+    title: "Education"
+  },
+  {
+    id: "experience",
+    title: "Project",
+  },
+  {
     id: "work",
     title: "Work",
   },
@@ -130,69 +138,56 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Software Developer Intern",
+    company_name: "Certus Capital Pvt Ltd",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Nov 2022 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created 15+ API services using Feathers.js adding authorization and validation using middleware functions.",
+      "Enhanced the API response latency through implementation of server-side processing",
+      "Integrated cron jobs to automate the dispatch of more than 1K emails per week and to oversee financial deadlines in a programmatic manner.",
+      "Collaborated with team on frontend website development utilizing ReactJS and added graphical representations into sales performance chart using D3.js for clear presentation of data.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Software Developer Intern",
+    company_name: "Frshr Technologies",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Oct 2021 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked with team to program 2 client projects using NodeJS frameworks Express.js and NestJS.",
+      "Implemented JSON Web Token (JWT) authentication across 40 API’s and integrated Google authentication for secure user sign in, strengthening authentication mechanism.",
+      "Effectively integrated 25+ TravelgateX’s API’s, seamlessly enabling real-time connectivity within the travel ecosystem.",
+      "Implemented MongoDB’s aggregation pipeline to improve performance leading to 18% decrease in response time for data querying API’s thereby enhancing overall system efficiency.",
     ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    name: "Gaurav Singhal",
+    designation: "CTO",
+    company: "Certus Capital Pvt Ltd",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    name: "Apoorv Bansal",
+    designation: "CTO",
+    company: "Lucien Solutions",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "Naren Lokwani",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "Frshr Technologies",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
