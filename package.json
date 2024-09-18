@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy" : "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
@@ -20,7 +20,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
-    "react-tilt": "^0.1.4",
+    "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.149.0"
   },
