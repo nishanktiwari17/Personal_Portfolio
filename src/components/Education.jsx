@@ -1,5 +1,4 @@
 import React from "react";
-import Tilt from "react-tilt";
 import syracuse from "../assets/syracuse.png"
 import mumbai from "../assets/mumbai.svg"
 import { motion } from "framer-motion";
