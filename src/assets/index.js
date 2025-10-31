@@ -24,12 +24,18 @@ import GCP from "./tech/GCP.png";
 import python from "./tech/python.png";
 import feathersjs from "./tech/feathersjs.png";
 import nextjs from "./tech/next.png";
+import java from "./tech/java.png";
+import tensorflow from "./tech/tensorflow.png";
+import springboot from "./tech/springboot.png";
+import opencv from "./tech/opencv.png";
 
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import Lucien_Solution from "./Lucien_Solution.png";
 import Amspaces from "./Amspaces.png";
+import Goldman from "./Goldman.png";
+import MaxGen from "./MaxGen.png";
 import Certus_Capital from "./Certus_Capital.png";
 import Frshr from "./Frshr.jpg";
 import ModularHomez from "./ModularHomez.jpeg";
@@ -59,6 +65,10 @@ export {
   javascript,
   mongodb,
   nodejs,
+  java,
+  springboot,
+  tensorflow,
+  opencv,
   reactjs,
   redux,
   tailwind,
@@ -70,6 +80,8 @@ export {
   tesla,
   Lucien_Solution,
   Amspaces,
+  Goldman,
+  MaxGen,
   Certus_Capital,
   Apoorv_Bansal,
   Gaurav_Singhal,

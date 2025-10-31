@@ -44,9 +44,8 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        I am an experienced software developer with a strong background in Python and JavaScript, specializing in frameworks such as React, Node.js, and Django. I am a fast learner who thrives on collaborating with clients to develop efficient, scalable, and user-friendly solutions that address real-world challenges. I'm excited to help bring your ideas to life—let's create something amazing together!
+        className='mt-4 text-secondary text-[17px] max-w-6xl leading-[30px]'
+      >Software Development Engineer with 4+ years of experience designing and building scalable distributed systems that integrate front-end, back-end, and data-driven components. Skilled in microservices, serverless architectures, RESTful APIs, and LLM integrations, with deep expertise in cloud-native development across AWS and GCP. Proven track record of delivering high-performance, data-intensive solutions that enhance reliability, optimize workflows, and strengthen fraud detection and large-scale data processing capabilities.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

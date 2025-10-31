@@ -44,8 +44,8 @@ const Navbar = () => {
         >
           <img src={profile_pic} alt='profile_pic' className='w-10 h-10 rounded-full object-cover' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Nishank &nbsp;
-            <span className='sm:block hidden'> | Software Developer</span>
+            Nishank Tiwari &nbsp;
+            <span className='sm:block hidden'> | Software Development Engineer</span>
           </p>
         </Link>
 

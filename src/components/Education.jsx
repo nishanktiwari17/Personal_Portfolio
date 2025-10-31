@@ -25,7 +25,7 @@ const Education = () => {
             <motion.p
               className='mt-4 text-secondary text-[24px] max-w-3xl leading-[30px]'
             >
-              Syracuse University | <span class="text-sm">Aug 2023 - May 2025</span>
+              Syracuse University | <span class="text-sm">Aug 2023 - Aug 2025</span>
             </motion.p>
             <motion.p
               className='mt-1 text-secondary text-[17px] max-w-3xl leading-[30px]'
